@@ -1,6 +1,11 @@
-[package]
-name = "yaplc"
-version = "0.1.0"
+[workspace]
+members = ["crates/yapl_compiler", "crates/yapl_lexer", "crates/yapl_token"]
+resolver = "2"
+
+[workspace.package]
+authors = ["AndreRojasMartinsson"]
+version = "0.0.0"
 edition = "2024"
 
-[dependencies]
+[workspace.dependencies]
+
